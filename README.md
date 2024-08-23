@@ -1,4 +1,4 @@
-# Project: Bundled ROS2 Manipulator Dependencies
+# Project: Bundled ROS2 Openmanipulator-X Dependencies for Simulation in Gazebo Ignition (Fortress)
 
 This repository bundles together specific versions of several GitHub projects that are required for our ROS2-based manipulator project.
 The purpose of this bundling is to ensure compatibility across all dependencies, as the project only works with these exact versions. 
@@ -9,7 +9,7 @@ To set up your environment and run the OpenManipulator in Gazebo Fortress with R
 
 1. Clone this bundled repository:
    ```bash
-   git clone <URL_OF_THIS_BUNDLED_REPOSITORY>
+   git clone <[URL_OF_THIS_BUNDLED_REPOSITORY](https://github.com/robertik10/Openmanipulator_Gazebo_Humble_Dependencies.git)>
    ```
 
 2. Clone the required forks from the ROBOTIS repository:
