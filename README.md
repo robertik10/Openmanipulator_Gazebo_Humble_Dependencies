@@ -1,4 +1,4 @@
-# Project: Bundled ROS2 Openmanipulator-X Dependencies for Simulation in Gazebo Ignition (Fortress)
+# Project: Bundled Openmanipulator-X ROS2 Humble Dependencies for Simulation in Gazebo Ignition (Fortress)
 
 This repository bundles together specific versions of several GitHub projects that are required for our ROS2-based manipulator project.
 The purpose of this bundling is to ensure compatibility across all dependencies, as the project only works with these exact versions. 
@@ -9,7 +9,7 @@ To set up your environment and run the OpenManipulator in Gazebo Fortress with R
 
 1. Clone this bundled repository:
    ```bash
-   git clone <[URL_OF_THIS_BUNDLED_REPOSITORY](https://github.com/robertik10/Openmanipulator_Gazebo_Humble_Dependencies.git)>
+   git clone https://github.com/robertik10/Openmanipulator_Gazebo_Humble_Dependencies.git>
    ```
 
 2. Clone the required forks from the ROBOTIS repository:
@@ -26,6 +26,8 @@ To set up your environment and run the OpenManipulator in Gazebo Fortress with R
 These forks are the main packages needed to run the OpenManipulator in Gazebo Fortress with ROS Humble.
 Note that the control of the robot is currently limited to joint manipulation and reading the joint outputs, as well as the end effector position.
 
+For more detailled information on correct usage and installation as well as documentation, you can check out [this wiki page](https://zircon-november-c5e.notion.site/OpenManipulator-X-Gazebo-ROS-2-5a1453a05e344a70801a072e3aa61015?pvs=4).
+
 ## Included Dependencies
 
 The following GitHub projects are bundled in this repository, each pinned to a specific branch to ensure compatibility:
@@ -33,43 +35,22 @@ The following GitHub projects are bundled in this repository, each pinned to a s
 1. **Dynamixel Workbench**
    - Repository: [ROBOTIS-GIT/dynamixel-workbench](https://github.com/ROBOTIS-GIT/dynamixel-workbench)
    - Branch: `ros2`
-   - Command: 
-     ```bash
-     git clone -b ros2 https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
-     ```
 
 2. **gz_ros2_control**
    - Repository: [ros-controls/gz_ros2_control](https://github.com/ros-controls/gz_ros2_control)
    - Branch: `humble`
-   - Command: 
-     ```bash
-     git clone -b humble https://github.com/ros-controls/gz_ros2_control.git
-     ```
-   - Note: This project only works with this very specific `ros_control` branch.
 
 3. **Open Manipulator Messages**
    - Repository: [ROBOTIS-GIT/open_manipulator_msgs](https://github.com/ROBOTIS-GIT/open_manipulator_msgs)
    - Branch: `ros2`
-   - Command: 
-     ```bash
-     git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
-     ```
 
 4. **Open Manipulator Dependencies**
    - Repository: [ROBOTIS-GIT/open_manipulator_dependencies](https://github.com/ROBOTIS-GIT/open_manipulator_dependencies)
    - Branch: `ros2`
-   - Command: 
-     ```bash
-     git clone -b ros2 https://github.com/ROBOTIS-GIT/open_manipulator_dependencies.git
-     ```
 
 5. **ROBOTIS Manipulator**
    - Repository: [ROBOTIS-GIT/robotis_manipulator](https://github.com/ROBOTIS-GIT/robotis_manipulator)
    - Branch: `ros2`
-   - Command: 
-     ```bash
-     git clone -b ros2 https://github.com/ROBOTIS-GIT/robotis_manipulator.git
-     ```
 
 ## Purpose
 
